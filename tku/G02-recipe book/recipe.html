@@ -1,0 +1,175 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+    <title>Project:Recipebook</title>
+    <meta charset="utf-8">
+    <!-- css --> 
+    <link href="css/recipe.css" rel="stylesheet" />
+    <!-- bootstrap css --> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../../materialize/css/materialize.min.css" media="screen,projection" />
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../css/fancybox/jquery.fancybox.css" rel="stylesheet"> 
+    <link href="../../css/flexslider.css" rel="stylesheet" /> 
+    <link href="../../css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="topbar">
+        <div class="container">
+            <div class="row">
+                <!-- social icon-->
+                <div class="col-sm-3">
+                   <ul class="social-network">
+                    <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+                </div>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <ul class="info"> 
+                            <li><i class="icon-info-blocks material-icons">question_answer</i><span>info@Arrive.com</span></li>
+                            <li><i class="icon-info-blocks material-icons">perm_phone_msg</i><span>+(012) 345 6789</span></li>
+                        </ul>
+                        <div class="clr"></div>
+                    </div>
+                </div>
+                <!-- info -->
+
+            </div>
+        </div>
+    </header>
+
+    <!-- start header -->
+    <header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../../index.html"><i class="icon-info-blocks material-icons">language</i>Arrive</a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a class="waves-effect waves-dark" href="../../index.html">Home</a></li> 
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle waves-effect waves-dark">About Us <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="waves-effect waves-dark" href="../../about.html">Company</a></li>
+                                <li><a class="waves-effect waves-dark" href="#">Our Team</a></li>
+                                <li><a class="waves-effect waves-dark" href="#">News</a></li> 
+                                <li><a class="waves-effect waves-dark" href="#">Investors</a></li>
+                            </ul>
+                        </li> 
+                        <li><a class="waves-effect waves-dark" href="../../services.html">Services</a></li>
+                        <li><a class="waves-effect waves-dark" href="../../portfolio.html">Gallery</a></li>
+                        <li><a class="waves-effect waves-dark" href="../../pricing.html">Pricing</a></li>
+                        <li><a class="waves-effect waves-dark" href="../../contact.html">Contact</a></li>
+                        <li class="dropdown active">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle waves-effect waves-dark">TKU<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="waves-effect waves-dark" href="../w5/blog.html">W5-Blog</a></li>
+                                <li><a class="waves-effect waves-dark" href="../w5/imagegallery.html">W5-Image Gallery</a></li>
+                                <li><a class="waves-effect waves-dark" href="../w8/tku60.html">W8-淡江大戲</a></li> 
+                                <li><a class="waves-effect waves-dark" href="../w11/index.html">W11-終極密碼</a></li>
+                                <li><a class="waves-effect waves-dark" href="../G01-travel%20webpage/travel.html">G01-Travel Webpage</a></li>
+                                <li><a class="waves-effect waves-dark" href="../G02-recipe%20book/recipe.html">G02-Recipe Book</a></li>
+                                <li><a class="waves-effect waves-dark" href="../G03-blog/blog.html">G03-Blog</a></li>
+                                <li><a class="waves-effect waves-dark" href="../G04-event%20invite/invite.html">G04-Event Invite</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle waves-effect waves-dark">心得報告<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="waves-effect waves-dark" href="../review/206410341.html">組員01-206410341</a></li>
+                                <li><a class="waves-effect waves-dark" href="../review/206410101.html">組員02-206410101</a></li>
+                                <li><a class="waves-effect waves-dark" href="../review/206410374.html">組員03-206410374</a></li> 
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    
+    <div id="recipe">
+        <h1>三杯雞食譜</h1>
+        <img id="titlePic" src="https://i.imgur.com/bBNHYhu.jpg" alt="recipe-title-img">
+        <h2>目錄 :</h2>
+            <ol>
+                <li><a href="#prepare">料理前準備</a></li>
+                <li><a href="#step">料理步驟</a></li>
+                <li><a href="#source">資料來源</a></li>
+            </ol>  
+        <h2>所需食材 :</h2>
+            <table id="prepare" border="1">            
+                <tr><td>去骨雞腿</td><td>3片</td></tr>
+                <tr><td>九層塔</td><td>一把</td></tr>
+                <tr><td>蒜頭</td><td>12顆</td></tr>
+                <tr><td>醬油</td><td>3大匙</td></tr>
+                <tr><td>米酒</td><td>3大匙</td></tr>
+                <tr><td>麻油</td><td>1大匙</td></tr>
+                <tr><td>冰糖</td><td>半湯匙</td></tr>            
+            </table>
+        <br>
+            <img class="recipePic" src="https://farm4.staticflickr.com/3944/15298237669_5f59cf1b98_c.jpg"alt="recipe-prepare"width=60%>  
+        <h2>料理步驟 :</h2>
+            <p><strong>步驟 1 : </strong>雞腿肉稍微畫幾刀，煮的時候比較快熟也容易入味。</p>
+                <img class="recipePic" src="https://farm4.staticflickr.com/3936/15298428270_5fd6453d31_c.jpg"alt="recipe-step1"width=60%>
+            <p><strong>步驟 2 : </strong>平底鍋要燒熱！不用放油，直接把雞皮朝下乾煎。</p>
+                <img class="recipePic" src="https://farm3.staticflickr.com/2948/15298492378_f73ec05ab4_c.jpg"alt="recipe-step2"width=60%>
+            <p><strong>步驟 3 : </strong>開中火乾煎2~3分鐘，把雞皮的油都逼出來，然後把表皮煎到金黃酥脆!</p>
+                <img class="recipePic" src="https://farm4.staticflickr.com/3945/15298237179_30c679513b_c.jpg"alt="recipe-step3"width=60%>
+            <p><strong>步驟 4 : </strong>表皮金黃後翻面!再煎1分鐘就好，起鍋備用囉!</p>
+                <img class="recipePic" src="https://farm6.staticflickr.com/5607/15298492268_2f891d5792_c.jpg"alt="recipe-step4"width=60%>
+            <p><strong>步驟 5 : </strong>雞肉切成6~8塊，不要切太小塊，等等煮完雞肉會縮小。</p>
+                <img class="recipePic" src="https://farm4.staticflickr.com/3952/15298491728_b81be6c4c6_c.jpg"alt="recipe-step5"width=60%>
+            <p><strong>步驟 6 : </strong>熱鍋加入麻油爆香薑片。</p>
+                <img class="recipePic" src="https://farm4.staticflickr.com/3950/15298236989_e889441b1d_c.jpg"alt="recipe-step6"width=60%>
+            <p><strong>步驟 7 :</strong>薑片有一點金黃以後，就放入大蒜一起爆香，聞到大蒜香味以後，就放入半湯匙的冰糖到鍋子裡面炒一炒。</p>
+                <img class="recipePic" src="https://farm6.staticflickr.com/5604/15484779992_1b7a0a228d_c.jpg"alt="recipe-step7"width=60%>
+            <p><strong>步驟 8 : </strong>把剛剛切好的雞肉放到鍋子裡炒一炒。</p>
+                <img class="recipePic" src="https://farm4.staticflickr.com/3955/15298427010_323c0d79fb_c.jpg"alt="recipe-step8"width=60%>
+            <p><strong>步驟 9 : </strong>加入醬油先拌炒一下，把雞肉都均勻拌上醬油後再加入米酒。</p>
+                <img class="recipePic" src="https://farm4.staticflickr.com/3951/15298491458_c01a97eb8b_c.jpg"alt="recipe-step9"width=60%>
+            <p>就這樣開中火燒煮，趁這時候試一下味道。</p>
+                <img class="recipePic" src="https://farm6.staticflickr.com/5605/15485143505_6f34c76fea_c.jpg"alt="recipe-step9-1"width=60%>
+            <p>蓋上鍋蓋悶2~3分鐘</p>
+                <img class="recipePic" src="https://farm4.staticflickr.com/3940/15298238729_e6fe4f1cbb_c.jpg"alt="recipe-step9-2"width=60%>
+                <img class="recipePic" src="https://farm4.staticflickr.com/3933/15462031486_4bf45e8297_c.jpg"alt="recipe-step9- 3"width=60%>
+                <img class="recipePic" src="https://farm4.staticflickr.com/3944/15462031206_04fbd84bf4_c.jpg"alt="recipe-step9-4"width=60%>
+            <p><strong>步驟 10 : </strong>加入一大把的九層塔，立刻關火。</p>
+                <img class="recipePic" src="https://farm4.staticflickr.com/3939/15462031036_4410702f1d_c.jpg"alt="recipe-step10"width=60%>
+            <p>利用餘熱把九層塔跟雞肉拌在一起，就可以上桌囉！</p>
+                <img class="recipePic" src="https://farm3.staticflickr.com/2946/15485145265_81d1dbb2b7_c.jpg"alt="recipe-step10-1"width=60%>
+            <p>上菜囉~ 趁熱開動!</p>
+                <img class="recipePic" src="https://farm3.staticflickr.com/2947/15462030676_bb25f6a2d0_c.jpg"alt="recipe-step10-2"width=60%>
+    </div>
+    <!-- javascript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/jquery.easing.1.3.js"></script>
+    <script src="../../materialize/js/materialize.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/jquery.fancybox.pack.js"></script>
+    <script src="../../js/jquery.fancybox-media.js"></script>  
+    <script src="../../js/jquery.flexslider.js"></script>
+    <script src="../../js/animate.js"></script>
+    <!-- Vendor Scripts -->
+    <script src="../../js/modernizr.custom.js"></script>
+    <script src="../../js/jquery.isotope.min.js"></script>
+    <script src="../../js/jquery.magnific-popup.min.js"></script>
+    <script src="../../js/animate.js"></script> 
+    <script src="../../js/custom.js"></script>
+</body>
+<footer id="source">
+    <p><em>Source : <a href="http://chrysie.pixnet.net/blog/post/107075770-%5B%E9%9B%B6%E5%A4%B1%E6%95%97%E9%A3%9F%E8%AD%9C%5D-%E4%B8%89%E6%9D%AF%E9%9B%9E%E4%BD%9C%E6%B3%95%21%21%21-%E6%89%92%E5%AE%8C%E4%B8%89%E7%A2%97%E9%A3%AF%E7%B3%BB%E5%88%97"target="_blank">小林的零失敗料理(痞客邦)</a></em></p>
+</footer>
+</html>

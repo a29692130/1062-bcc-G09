@@ -1,0 +1,40 @@
+#recipe {
+    color: white;
+    background: linear-gradient(0deg, #9d3600, #d3591a);
+    width: 70%;
+    padding-top: 50px;
+    margin: 0px auto;
+    font-family:"微軟正黑體";
+    font-size: 23px;
+}
+#recipe h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+#recipe h2{
+    color: black;
+    padding-left: 100px;
+}
+#recipe p{
+    color: white;
+    padding-left: 100px;
+    margin-top: 60px;
+}
+#recipe ol{
+    padding-left: 125px;
+}
+.recipePic{
+    border:4px;
+    border-color: white;
+    border-style: dotted;
+    margin-left: 100px;
+}
+#titlePic{
+    width: 100%;
+}
+#prepare{
+    text-align: center;
+    width: 300px;
+    margin-left: 100px;
+}
