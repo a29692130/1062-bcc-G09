@@ -1,0 +1,66 @@
+#blog{
+    background-color: dimgray;
+    padding: 5% 50px;
+    color: white;
+    font-family: 'Allerta', sans-serif, "微軟正黑體";
+}
+#blog p{  
+    width: 720px;
+    margin:25px 0px;
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+}
+#blog img{
+    margin: 15px 0px;
+}
+#blog div{
+    width: 720px;
+    margin:0px auto;
+}
+#blog h1{
+    font-size: 45px;
+    color: white;
+    float: left;
+    padding-left: 20px;
+}
+#blog h2{
+    color: white;
+    margin: 0px;
+    padding: 25px 0px;
+}
+#blog h6{ 
+    color: white;
+    margin: 0px;
+    padding: 50px 0px 0px 0px;
+}
+#blog .header{
+    height: 120px;
+    width: 720px;
+    background-image: url(https://i.imgur.com/KpaWeDZ.jpg);
+    background-repeat: no-repeat;
+
+}
+#blog .post-title{
+    border-width:1.5px;
+    border-bottom-style:dotted;
+    border-color:#FFFFFF;
+}
+#blog #BackToTop{
+    max-width: 5%; 
+    position: fixed;
+    bottom: 30px;
+}
+#blog nav{
+    width: 720px;
+}
+#blog ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#blog li{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
