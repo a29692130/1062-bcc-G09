@@ -1,0 +1,19 @@
+#travel{      
+    background: linear-gradient(0deg, rgb(18,77, 82), rgb(10, 42, 72));;
+    color: white;
+    font-family: "微軟正黑體";
+    text-align: center !important;
+    padding-top: 50px;
+}
+#travel h1{
+    color: white;
+    padding-bottom: 25px;
+}
+#travel h2{
+    background-color: darkorange;
+    color: #482f21;
+    font-size: 28px;
+}
+#travel .content{
+    font-size: 20px;
+}
