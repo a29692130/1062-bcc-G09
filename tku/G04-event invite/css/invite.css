@@ -1,0 +1,31 @@
+#invite{
+    background: linear-gradient(to bottom, #6742ad, #7826ff);
+    width: 850px;
+    margin: 0px auto;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#invite h1{
+    font-size: 75px;
+    text-align: center;
+    color: white;
+    padding: 100px 0px 50px 0px;
+    margin: 0px;
+}
+#invite h2{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin: 50px auto 25px;
+}
+#invite img{
+    display: block;
+    margin: auto;
+}
+#invite p{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    background: none;
+    margin: 25px auto 0px;
+}
