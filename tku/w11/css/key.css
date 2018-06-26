@@ -1,0 +1,20 @@
+#Bomber{
+    border: 10px solid purple;
+    text-align: center;
+    width: 400px;
+    margin: 90px auto;
+}
+
+#Bomber input{
+    margin: 10px;
+}
+
+#Bomber #code{
+    width: 70px;
+    text-align: center;
+}
+
+#Bomber #bombs img{
+    width: 25px;
+    margin: 5px 5px 10px 5px;
+}
